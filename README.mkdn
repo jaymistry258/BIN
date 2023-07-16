@@ -6,6 +6,14 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 
 ```
 
+Do this before start for build
+---------------
+```bash
+
+rm -rf out/target/product/phoenix
+
+```
+
 Getting start for build
 ---------------
 ```bash
