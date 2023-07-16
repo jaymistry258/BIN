@@ -6,6 +6,22 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 
 ```
 
+Getting start for build
+---------------
+```bash
+
+. build/envsetup.sh
+
+```
+
+Start build
+---------------
+```bash
+
+brunch phoenix
+
+```
+
 Evolution X dependencies
 ---------------
 ```bash
