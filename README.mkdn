@@ -6,6 +6,12 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 
 ```
 
+To go Device Tree
+---------------
+```bash
+cd device/xiaomi/phoenix
+```
+
 Do this before start for build
 ---------------
 ```bash
