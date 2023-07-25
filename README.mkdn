@@ -4,10 +4,16 @@ Repo sync command
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
-To go Device Tree
+Go to Device Tree
 ---------------
 ```bash
 cd device/xiaomi/phoenix
+```
+
+Go to Kernel Tree
+---------------
+```bash
+cd kernel/xiaomi/phoenix
 ```
 
 Do this before start for build
@@ -26,6 +32,12 @@ Start build
 ---------------
 ```bash
 brunch phoenix
+```
+
+Get build error log
+---------------
+```bash
+curl -T out/error.log temp.sh
 ```
 
 Evolution X dependencies
