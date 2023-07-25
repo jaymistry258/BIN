@@ -34,6 +34,12 @@ Start build
 brunch phoenix
 ```
 
+Go to build dir
+---------------
+```bash
+cd out/target/product/phoenix
+```
+
 Get build error log
 ---------------
 ```bash
