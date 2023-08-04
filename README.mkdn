@@ -58,14 +58,20 @@ Evolution X dependencies
 git clone https://github.com/Evolution-X-Devices/device_xiaomi_phoenix.git -b tiramisu device/xiaomi/phoenix && git clone https://github.com/Evolution-X-Devices/vendor_xiaomi_phoenix.git -b tiramisu vendor/xiaomi/phoenix && git clone https://github.com/jaymistry258/kernel_xiaomi_phoenix.git -b alza-su kernel/xiaomi/phoenix && git clone https://github.com/jaymistry258/device_xiaomi_phoenix-miuicamera.git -b thirteen device/xiaomi/phoenix-miuicamera && git clone https://gitlab.com/jaymistry258/vendor-xiaomi-phoenix-miuicamera.git -b leica vendor/xiaomi/phoenix-miuicamera && git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
 ```
 
+AlphaDroid dependencies
+---------------
+```bash
+git clone https://github.com/AlphaDroid-devices/device_xiaomi_phoenix.git -b alpha-13 device/xiaomi/phoenix && git clone https://github.com/jaymistry258/vendor_xiaomi_phoenix.git -b 13 vendor/xiaomi/phoenix && git clone https://github.com/jaymistry258/kernel_xiaomi_phoenix.git -b alza-su kernel/xiaomi/phoenix && git clone https://github.com/jaymistry258/device_xiaomi_phoenix-miuicamera.git -b thirteen device/xiaomi/phoenix-miuicamera && git clone https://gitlab.com/jaymistry258/vendor-xiaomi-phoenix-miuicamera.git -b leica vendor/xiaomi/phoenix-miuicamera && git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
+```
+
 ProjectBlaze dependencies
 ---------------
 ```bash
 git clone https://github.com/jaymistry258/device_xiaomi_phoenix.git -b blaze device/xiaomi/phoenix && git clone https://github.com/jaymistry258/vendor_xiaomi_phoenix.git -b 13 vendor/xiaomi/phoenix && git clone https://github.com/jaymistry258/kernel_xiaomi_phoenix-alza.git -b Alza kernel/xiaomi/phoenix && git clone https://github.com/jaymistry258/device_xiaomi_phoenix-miuicamera.git -b thirteen device/xiaomi/phoenix-miuicamera && git clone https://gitlab.com/jaymistry258/vendor-xiaomi-phoenix-miuicamera.git -b leica vendor/xiaomi/phoenix-miuicamera && git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
 ```
- 
-AlphaDroid dependencies
+
+RisingOS dependencies
 ---------------
 ```bash
-git clone https://github.com/AlphaDroid-devices/device_xiaomi_phoenix.git -b alpha-13 device/xiaomi/phoenix && git clone https://github.com/jaymistry258/vendor_xiaomi_phoenix.git -b 13 vendor/xiaomi/phoenix && git clone https://github.com/jaymistry258/kernel_xiaomi_phoenix.git -b alza-su kernel/xiaomi/phoenix && git clone https://github.com/jaymistry258/device_xiaomi_phoenix-miuicamera.git -b thirteen device/xiaomi/phoenix-miuicamera && git clone https://gitlab.com/jaymistry258/vendor-xiaomi-phoenix-miuicamera.git -b leica vendor/xiaomi/phoenix-miuicamera && git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
+git clone https://github.com/jaymistry258/device_xiaomi_phoenix.git -b rising device/xiaomi/phoenix && git clone https://github.com/jaymistry258/vendor_xiaomi_phoenix.git -b 13 vendor/xiaomi/phoenix && git clone https://github.com/jaymistry258/kernel_xiaomi_phoenix.git -b alza-su kernel/xiaomi/phoenix && git clone https://github.com/kdrag0n/proton-clang.git --depth=1 prebuilts/clang/host/linux-x86/clang-proton
 ```
